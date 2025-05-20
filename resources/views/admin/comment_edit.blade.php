@@ -1,4 +1,6 @@
 @extends('admin.layouts.app')
+@section('title', 'Comment Edit')
+
 @section('content')
 
 <div class="main-content">

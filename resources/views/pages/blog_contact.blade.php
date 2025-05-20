@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Blog Contact')
+
 @section('content')
 @include('layouts.bradcam', [
 'pageTitle' => 'Contact',

@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 // User pages route
-Route::get('', [PageController::class, 'home'])->name('home');
+Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('blog_details/{blog}', [PageController::class, 'blog_details'])->name('blog.details'); 
 // User pages contact route
 Route::get('blog/contact', [ContactController::class, 'blog_contact'])->name('blog.contact');

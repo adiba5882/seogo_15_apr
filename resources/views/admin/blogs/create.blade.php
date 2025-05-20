@@ -1,4 +1,6 @@
 @extends('admin.layouts.app')
+@section('title', 'Blogs Create')
+
 @section('content')
 <div class="card" style="margin-left: 270px;margin-top:100px; margin-right:10px">
     <div class="card-header card-header-bordered">

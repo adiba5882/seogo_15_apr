@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Home Page')
 @section('content')
 @include('layouts.bradcam', [
 'pageTitle' => 'Blog',
@@ -30,7 +31,7 @@
                                 <li><a href="#"><i class="fa fa-comments"></i>{{$blog->comments->count()}} Comments</a></li>
                             </ul>
                         </div>
-                    </article> 
+                    </article>
                     @endforeach
                     @else
                     <p style="color: red; font-size:50px">Blog not found</p>

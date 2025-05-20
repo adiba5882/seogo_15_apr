@@ -1,9 +1,11 @@
 @extends('admin.layouts.app')
+@section('title', 'Comment')
+
 @section('content')
 <div class="main-content">
 
     <div class="page-content">
-        <div class="container-fluid">
+        <div class="container-fluid"> 
 
             <!-- start page title -->
             <div class="row">
