@@ -34,7 +34,7 @@
                 </li>
                 <li>
                     <a href="{{route('comment')}}" class="">
-                    <i class="fa fa-comments"></i>
+                        <i class="fa fa-comments"></i>
                         <span>Comments</span>
                     </a>
                 </li>
@@ -48,6 +48,11 @@
                     <form action="{{ route('logout') }}" method="post">
                         @csrf
                         <button class="btn btn-primary" type="submit">Logout</button>
+                    </form>
+                </li><br><br>
+                <li class="ms-4">
+                    <form action="{{ route('home') }}">
+                        <button class="btn btn-primary" type="submit">Seogo</button>
                     </form>
                 </li>
             </ul>
